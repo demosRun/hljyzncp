@@ -1,0 +1,191 @@
+body, html, .page, .page-box {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+img {
+  border: none;
+}
+
+[route-active="false"] {
+  display: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.swiper-container-p2 {
+  position: relative;
+  width: 575px;
+  height: 370px;
+  margin: 0 auto;
+  overflow: hidden;
+  color: white;
+}
+
+.swiper-container-p2 .swiper-slide {
+  width: 575px;
+  height: 370px;
+  position: relative;
+}
+
+.swiper-container-p2 .swiper-slide a {
+  display: block;
+}
+
+.swiper-container-p2 .swiper-slide span {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 64px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  line-height: 64px;
+  font-size: 16px;
+}
+
+.swiper-container-p2 .prev {
+  background: url(http://www.people.com.cn/img/2016people/images/focus_left_b.png);
+  width: 18px;
+  height: 25px;
+  position: absolute;
+  cursor: pointer;
+  bottom: 18px;
+  left: 70px;
+  z-index: 10;
+}
+
+.swiper-container-p2 .next {
+  background: url(http://www.people.com.cn/img/2016people/images/focus_right_b.png);
+  width: 18px;
+  height: 25px;
+  position: absolute;
+  cursor: pointer;
+  bottom: 18px;
+  right: 70px;
+  z-index: 10;
+}
+
+.swiper-container-p2 .swiper-pagination1 {
+  display: none;
+}
+
+.swiper-container-p2 .num1 {
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  position: absolute;
+  left: 15%;
+  bottom: 7px;
+  line-height: 200%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.swiper-container-p2 .num1 i em {
+  color: #fff;
+  margin-left: 2px;
+}
+
+.swiper-container-p2 .num1 i em.thisp {
+  font-size: 28px;
+  color: #e71f18;
+  margin-right: 1px;
+  margin-left: 0;
+}
+.home {
+  background-image: url('../images/bg.jpg');
+  background-size: 100% auto;
+}
+
+.conn-box {
+  padding-top: 35vw;
+  overflow: auto;
+  transition: padding 1s;
+}
+
+.yun {
+  display: block;
+  width: 100%;
+}
+
+.conn-bg {
+  background-color: white;
+}
+
+.box-1 .fr {
+  width: 540px;
+  text-align: left;
+}
+
+.box-1 .fr h3 {
+  font-size: 26px;
+  margin-bottom: 18px;
+}
+
+.box-1 .fr p {
+  font-size: 18px;
+  color: #666666;
+  line-height: 28px;
+}
+
+.box-1 .fr .line {
+  border-bottom: 1px solid #ccc;
+  border-style: dashed;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.box-1 .fr h4 {
+  font-size: 25px;
+  line-height: 58px;
+}
+
+.title-bar {
+  height: 160px;
+  margin-top: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+

@@ -1,0 +1,82 @@
+<template lang="pug">
+.home
+  .conn-box
+    img.yun(src="@|yun.png|")
+    .conn-bg
+      .w1200
+        .fl-box.box-1.clear
+          .fl
+            plug(_name="module76" _src="https://template.owo.ink/b19c69d63461f9db.owo")
+          .fr
+            h3 标题标题标题标题标题标题标题标题标题
+            p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要
+            .line
+            h4 标题标题标题标题标题标题标题标题标题
+            h4 标题标题标题标题标题标题标题标题标题
+            h4 标题标题标题标题标题标题标题标题标题
+        .title-bar(style="background-image: url('@|title-1.png|');")
+        .fl-box.box-1.clear
+          .fl
+            img(src="@|show-1.png|")
+          .fr
+            img(src="@|show-1.png|")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      this.query('.conn-box').style.paddingTop = '32vw';
+    }
+  }
+</script>
+
+
+<style lang="less">
+.home {
+  background-image: url('@|bg.jpg|');
+  background-size: 100% auto;
+}
+.conn-box {
+  padding-top: 35vw;
+  overflow: auto;
+  transition: padding 1s;
+}
+.yun {
+  display: block;
+  width: 100%;
+}
+.conn-bg {
+  background-color: white;
+}
+.box-1 {
+  .fr {
+    width: 540px;
+    text-align: left;
+    h3 {
+      font-size: 26px;
+      margin-bottom: 18px;
+    }
+    p {
+      font-size: 18px;
+      color: #666666;
+      line-height: 28px;
+    }
+    .line {
+      border-bottom: 1px solid #ccc;
+      border-style: dashed;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    h4 {
+      font-size: 25px;
+      line-height: 58px;
+    }
+  }
+}
+.title-bar {
+  height: 160px;
+  margin-top: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+</style>

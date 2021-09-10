@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <!-- 页面的元信息 -->
+    <title>测试预览页面</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=1000, user-scalable=yes"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="white"/>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="filetype" content="1"/>
+    <meta name="publishedtype" content="1"/>
+    <meta name="pagetype" content="2"/>
+    <meta name="description" content="{TAG_59447_TAG}"/>
+    <meta name="keywords" content="{TAG_59446_TAG}"/>
+    <meta name="catalogs" content="{TAG_83943_TAG}"/>
+    
+      <!-- 页面主样式文件 -->
+      <link charset="utf-8"  rel="stylesheet" href="./static/css/owo.core.css">
+      
+    <!-- 附属css文件 -->
+    <link rel="stylesheet" href="./static/css/main.css" charset="utf-8">
+    <link rel="stylesheet" href="https://cunchu.site/owo/style/idangerous.swiper2.7.6.css" charset="utf-8">
+      
+  </head>
+  <body>
+    
+    <!-- 页面[page]-->
+    <div class="home page" template="page" style="display: block;"><div class="conn-box"><img class="yun" src="./static/images/yun.png"><div class="conn-bg"><div class="w1200"><div class="fl-box box-1 clear"><div class="fl"><div class="swiper-container-p2" :mouseenter="stop" :mouseleave="start" template="module76"> 
+    <div class="swiper-wrapper"> 
+      <div class="swiper-slide">
+      <a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2019/0620/MAIN201906202020493087485176183.jpg" width="575" height="370" alt=""></a>
+      <span>中乌“合作—2019”联合反恐演练圆满结束</span>
+      </div> 
+      <div class="swiper-slide">
+      <a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2019/0620/MAIN201906202025094971392065777.jpg" width="575" height="370" alt=""></a>
+      <span>远方的母亲，请接受来自军人的祝福</span>
+      </div> 
+      <div class="swiper-slide">
+      <a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2019/0619/MAIN201906191838270226271022901.jpg" width="575" height="370" alt=""></a>
+      <span>纪念百年五四——新时代青年新面貌</span>
+      </div> 
+    </div>
+    <div class="prev" o-tap="prev"></div> 
+    <div class="next" o-tap="next"></div> 
+    <div class="num1"> 
+      <i><em class="thisp">1</em>/<em class="allp"></em></i> 
+    </div> 
+  </div></div><div class="fr"><h3>标题标题标题标题标题标题标题标题标题</h3><p>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</p><div class="line"></div><h4>标题标题标题标题标题标题标题标题标题</h4><h4>标题标题标题标题标题标题标题标题标题</h4><h4>标题标题标题标题标题标题标题标题标题</h4></div></div><div class="title-bar" style="background-image: url('./static/images/title-1.png');"></div><div class="fl-box box-1 clear"><div class="fl"><img src="./static/images/show-1.png"></div><div class="fr"><img src="./static/images/show-1.png"></div></div></div></div></div></div>
+    
+<!-- 框架script文件 -->
+<script src="./static/js/owo.core.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+owo.script = {
+  "page": {
+    "created": function created() {
+      this.query('.conn-box').style.paddingTop = '32vw';
+    },
+    "template": {
+      "module76": {
+        "data": {
+          "swiper": null
+        },
+        "created": function created() {
+          var _this = this;
+
+          this.$el.getElementsByClassName('allp')[0].innerText = this.$el.getElementsByClassName('swiper-slide').length;
+          setTimeout(function () {
+            _this.data.swiper = new Swiper(_this.$el, {
+              mode: 'horizontal',
+              autoplay: 5000,
+              autoplayDisableOnInteraction: false,
+              loop: true,
+              slidesPerView: 1,
+              mousewheelControl: false,
+              onSlideChangeStart: function onSlideChangeStart(swiper) {
+                var activeIndex = (swiper.activeLoopIndex != undefined ? swiper.activeLoopIndex : swiper.realIndex) + 1;
+                _this.$el.getElementsByClassName('thisp')[0].innerText = activeIndex;
+              }
+            });
+          }, 0);
+        },
+        "stop": function stop() {
+          this.data.swiper.stopAutoplay();
+        },
+        "start": function start() {
+          this.data.swiper.startAutoplay();
+        },
+        "prev": function prev() {
+          this.data.swiper.swipePrev ? this.data.swiper.swipePrev() : this.data.swiper.slidePrev();
+        },
+        "next": function next() {
+          this.data.swiper.swipeNext ? this.data.swiper.swipeNext() : this.data.swiper.slideNext();
+        }
+      }
+    }
+  }
+};
+</script>
+
+    <script src="https://cunchu.site/owo/script/idangerous.swiper2.7.6.min.js" type="text/javascript"  charset="UTF-8"></script>
+    <script src="./static/js/main.js" type="text/javascript"  charset="UTF-8"></script>
+
+  </body>
+</html>
