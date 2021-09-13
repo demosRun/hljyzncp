@@ -16,7 +16,7 @@
             h4 标题标题标题标题标题标题标题标题标题
         //- 品牌有故事
         .title-bar(style="background-image: url('@|title-1.png|');")
-        .fl-box.box-1.clear
+        .fl-box.box-2.clear
           .fl
             img(src="@|show-1.png|")
           .fr
@@ -35,7 +35,7 @@
                 img(src="@|show-1.png|")
         //- 品牌有故事
         .title-bar(style="background-image: url('@|title-2.png|');")
-        ul.fl-box.box-2.clear
+        ul.fl-box.box-3.clear
           li.clear
             h2 一二三四五六七十一二三
             .show-box
@@ -79,11 +79,116 @@
                 a(href="#") 详情》
               img(src="@|show-2.png|")
         .title-bar(style="background-image: url('@|title-3.png|');")
+      .box-4
+        img(src="@|show-3.jpg|")
+        .w1200
+          ul.hover-box
+            li
+              a(href="#") 微视频在希望的田野上
+            li
+              a(href="#") 微视频在希望的田野上
+            li
+              a(href="#") 微视频在希望的田野上
+            li
+              a(href="#") 微视频在希望的田野上
+            li
+              a(href="#") 微视频在希望的田野上
+      .w1200
         .title-bar(style="background-image: url('@|title-4.png|');")
+        .fl-box.box-5.clear
+          .fl
+            img(src="@|show-4.jpg|")
+          .fr
+            ul
+              li.active
+                h2 一二三四五六七八九十一二三四五六七八九十
+                img(src="@|show-1.png|")
+              li
+                h2 一二三四五六七八九十一二三四五六七八九十
+                img(src="@|show-1.png|")
+              li
+                h2 一二三四五六七八九十一二三四五六七八九十
+                img(src="@|show-1.png|")
+              li
+                h2 一二三四五六七八九十一二三四五六七八九十
+                img(src="@|show-1.png|")
         .title-bar(style="background-image: url('@|title-5.png|');")
-        .title-bar(style="background-image: url('@|title-6.png|');")
+      .swiper-container-1(style="background-image: url('@|swiper-bg.jpg|');")
+        .w1200
+          img.arrow-left(src="@|left.png|")
+          img.arrow-right(src="@|right.png|")
+          .swiper-container
+            .swiper-wrapper
+              .swiper-slide
+                img(src="@|show-6.jpg|")
+                h3 标题标题标题标题标题标题标题标题标题
+                p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要要摘要
+              .swiper-slide
+                img(src="@|show-6.jpg|")
+                h3 标题标题标题标题标题标题标题标题标题
+                p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要要摘要 
+              .swiper-slide
+                img(src="@|show-6.jpg|")
+                h3 标题标题标题标题标题标题标题标题标题
+                p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要要摘要 
+      .title-bar(style="background-image: url('@|title-6.png|');")
+      img(src="@|show-5.jpg|")
+      .w1200
         .title-bar(style="background-image: url('@|title-7.png|');")
+        .lr-card-box.clear
+          .fl.w600
+            .card.clear
+              img.fl(src="@|show-6.jpg|")
+              .fr
+                h3 标题标题标题标题标
+                p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要
+            ul
+              li
+                a(href="#") 标题标题标题标题标题标题标题标题
+              li
+                a(href="#") 标题标题标题标题标题标题标题标题
+              li
+                a(href="#") 标题标题标题标题标题标题标题标题
+          .fr.w600
+            .card.clear
+              img.fl(src="@|show-6.jpg|")
+              .fr
+                h3 标题标题标题标题标
+                p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要
+            ul
+              li
+                a(href="#") 标题标题标题标题标题标题标题标题
+              li
+                a(href="#") 标题标题标题标题标题标题标题标题
+              li
+                a(href="#") 标题标题标题标题标题标题标题标题
+
         .title-bar(style="background-image: url('@|title-8.png|');")
+        .fl-box.clear.card-box
+          ul.fl.text-box
+            li
+              a(href="#")
+                h2 标题标题标题标题标题标题标题标题标题
+                p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘摘要摘要摘要摘要摘要摘要摘要摘要
+            li
+              a(href="#")
+                h2 标题标题标题标题标题标题标题标题标题
+                p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘摘要摘要摘要摘要摘要摘要摘要摘要
+            li
+              a(href="#")
+                h2 标题标题标题标题标题标题标题标题标题
+                p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘摘要摘要摘要摘要摘要摘要摘要摘要
+            li
+              a(href="#")
+                h2 标题标题标题标题标题标题标题标题标题
+                p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘摘要摘要摘要摘要摘要摘要摘要摘要
+          ul.fr.img-box
+            .image-item
+              img(src="@|show-6.jpg|")
+              span 小标题小标题小标题小标题
+            .image-item
+              img(src="@|show-6.jpg|")
+              span 小标题小标题小标题小标题
         .title-bar(style="background-image: url('@|title-9.png|');")
 </template>
 
@@ -91,6 +196,17 @@
   module.exports = {
     created: function () {
       this.query('.conn-box').style.paddingTop = '32vw';
+      var mySwiper = new Swiper('.swiper-container-1 .swiper-container',{
+        paginationClickable: true
+      })
+      $('.conn-box .arrow-left').on('click', function(e){
+        e.preventDefault()
+        mySwiper.swipePrev()
+      })
+      $('.conn-box .arrow-right').on('click', function(e){
+        e.preventDefault()
+        mySwiper.swipeNext()
+      })
     }
   }
 </script>
@@ -116,6 +232,31 @@
 .box-1 {
   .fr {
     width: 540px;
+    text-align: left;
+    h3 {
+      font-size: 26px;
+      margin-bottom: 18px;
+    }
+    p {
+      font-size: 18px;
+      color: #666666;
+      line-height: 28px;
+    }
+    .line {
+      border-bottom: 1px solid #ccc;
+      border-style: dashed;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    h4 {
+      font-size: 25px;
+      line-height: 58px;
+    }
+  }
+}
+.box-2 {
+  .fr {
+    width: 627px;
     text-align: left;
     h3 {
       font-size: 26px;
@@ -174,7 +315,36 @@
     }
   }
 }
-.fl-box.box-2 {
+.box-2 {
+  .fr {
+    li {
+      border-bottom: 4px solid white;
+      img, p {
+        display: none;
+      }
+      p {
+        background-image: linear-gradient(to right, #e9d8ba, #f9f5ee);
+        padding: 22px 15px;
+        font-size: 16px;
+        height: 157px;
+      }
+      h2 {
+        background-image: linear-gradient(to right, #c99e54, #fcf3e2);
+        height: 60px;
+        line-height: 60px;
+        padding: 0 20px;
+        color: #825d1f;
+        font-size: 22px;
+      }
+    }
+    li.active {
+      p {
+        display: block;
+      }
+    }
+  }
+}
+.fl-box.box-3 {
   li {
     float: left;
     h2 {
@@ -239,6 +409,223 @@
       font-size: 18px;
       z-index: 14;
       color: #ad8b50;
+    }
+  }
+}
+.box-4 {
+  position: relative;
+  img {
+    display:  block;
+  }
+  .w1200 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+  }
+  ul {
+    height: 100%;
+  }
+  .hover-box {
+    width: 290px;
+    right: 0;
+    position: absolute;
+    li {
+      height: calc(20% - 2px);
+      background-color: rgba(0, 0, 0, 0.8);
+      margin-bottom: 2px;
+      color: white;
+      padding: 15px;
+      font-size: 20px;
+      text-align: left;
+      line-height: 34px;
+      a {
+        color: white;
+        display: block;
+      }
+    }
+  }
+}
+.box-5 {
+  .fr {
+    width: 400px;
+    text-align: left;
+    h3 {
+      font-size: 26px;
+      margin-bottom: 18px;
+    }
+    p {
+      font-size: 18px;
+      color: #666666;
+      line-height: 28px;
+    }
+    .line {
+      border-bottom: 1px solid #ccc;
+      border-style: dashed;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    h4 {
+      font-size: 25px;
+      line-height: 58px;
+    }
+    li {
+      border-bottom: 1px solid white;
+      img, p {
+        display: none;
+      }
+      p {
+        
+        padding: 22px 15px;
+        font-size: 16px;
+        height: 157px;
+      }
+      h2 {
+        line-height: 60px;
+        padding: 0 20px;
+        color: #8f6a2c;
+        font-size: 22px;
+        background-color: #fcf6ec;
+        font-weight: normal;
+      }
+    }
+    li.active {
+      h2 {
+        display: block;
+        background-image: linear-gradient(to right, #c4994e, #fcf3e1);
+      }
+    }
+  }
+}
+.swiper-container-1, .swiper-container-1 .swiper-container {
+  height: 410px;
+}
+.swiper-container-1 {
+  position: relative;
+  padding-top: 20px;
+  .arrow-left {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: -50px;
+    cursor: pointer;
+  }
+  .arrow-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: -50px;
+    cursor: pointer;
+  }
+  .swiper-slide {
+    position: relative;
+    img {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    h3 {
+      position: absolute;
+      font-size: 27px;
+      left: 650px;
+      top: 120px;
+      font-weight: normal;
+    }
+    p {
+      position: absolute;
+      left: 650px;
+      top: 170px;
+      font-size: 18px;
+      width: 500px;
+      text-align: left;
+      line-height: 30px;
+      color: #666666;
+    }
+  }
+}
+.lr-card-box {
+  .card {
+    img {
+      width: 270px;
+      height: 160px;
+    }
+    .fr {
+      width: 330px;
+      padding: 0 20px;
+      text-align: left;
+    }
+    h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #666666;
+      font-size: 16px;
+      line-height: 24px;
+      height: 118px;
+      overflow: hidden;
+    }
+  }
+  ul {
+    margin-top: 20px;
+  }
+  li {
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 20px;
+    background-image: url('@|doit.png|');
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+  .w600 {
+    width: 600px;
+  }
+}
+.card-box {
+  .text-box {
+    width: 580px;
+    text-align: left;
+  }
+  li {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  p {
+    color: #666666;
+    font-size: 18px;
+    padding-bottom: 20px;
+    line-height: 36px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 34px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .img-box, .img-box img {
+    width: 580px;
+  }
+  .image-item {
+    position: relative;
+    img {
+      width: 580px;
+      height: 320px;
+      display: block;
+      position: relative;
+    }
+    span {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      line-height: 40px;
+      color: white;
+      font-size: 18px;
     }
   }
 }

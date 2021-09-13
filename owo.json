@@ -68,6 +68,10 @@
 			"name": "main",
 			"src": "./src/main.js",
 			"resource": true
+		},
+		{
+			"name": "jquery1.11.0",
+			"src": "https://cunchu.site/owo/script/jquery-1.11.1.min.js"
 		}
 	],
 	"styleList": [
@@ -120,10 +124,6 @@
 			"title": "{TAG_14226_TAG}",
 			"handleLink": true,
 			"scriptList": [
-				{
-					"name": "jquery1.11.0",
-					"src": "https://cunchu.site/owo/script/jquery-1.11.1.min.js"
-				}
 			]
 		}
 	}
