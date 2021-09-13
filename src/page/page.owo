@@ -18,21 +18,21 @@
         .title-bar(style="background-image: url('@|title-1.png|');")
         .fl-box.box-2.clear
           .fl
-            img(src="@|show-1.png|")
+            img(src="@|show-1.png|" width="573" height="344")
           .fr
             ul
               li.active
                 h2 一二三四五六七八九十一二三四五六七八九十
                 p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要
-                img(src="@|show-1.png|")
+                img(src="@|show-1.png|" width="573" height="344")
               li
                 h2 一二三四五六七八九十一二三四五六七八九十
                 p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要
-                img(src="@|show-1.png|")
+                img(src="@|show-2.png|" width="573" height="344")
               li
                 h2 一二三四五六七八九十一二三四五六七八九十
                 p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要
-                img(src="@|show-1.png|")
+                img(src="@|show-1.png|" width="573" height="344")
         //- 品牌有故事
         .title-bar(style="background-image: url('@|title-2.png|');")
         ul.fl-box.box-3.clear
@@ -80,19 +80,24 @@
               img(src="@|show-2.png|")
         .title-bar(style="background-image: url('@|title-3.png|');")
       .box-4
-        img(src="@|show-3.jpg|")
+        img.show-img(src="@|show-3.jpg|")
         .w1200
           ul.hover-box
             li
               a(href="#") 微视频在希望的田野上
+              img(src="@|show-3.jpg|" style="display:none")
             li
               a(href="#") 微视频在希望的田野上
+              img(src="@|show-3.jpg|" style="display:none")
             li
               a(href="#") 微视频在希望的田野上
+              img(src="@|show-3.jpg|" style="display:none")
             li
               a(href="#") 微视频在希望的田野上
+              img(src="@|show-3.jpg|" style="display:none")
             li
               a(href="#") 微视频在希望的田野上
+              img(src="@|show-3.jpg|" style="display:none")
       .w1200
         .title-bar(style="background-image: url('@|title-4.png|');")
         .fl-box.box-5.clear
@@ -132,7 +137,7 @@
                 h3 标题标题标题标题标题标题标题标题标题
                 p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要要摘要 
       .title-bar(style="background-image: url('@|title-6.png|');")
-      img(src="@|show-5.jpg|")
+      img.show-image(src="@|show-5.jpg|")
       .w1200
         .title-bar(style="background-image: url('@|title-7.png|');")
         .lr-card-box.clear
@@ -183,13 +188,19 @@
                 h2 标题标题标题标题标题标题标题标题标题
                 p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘摘要摘要摘要摘要摘要摘要摘要摘要
           ul.fr.img-box
-            .image-item
-              img(src="@|show-6.jpg|")
-              span 小标题小标题小标题小标题
-            .image-item
-              img(src="@|show-6.jpg|")
-              span 小标题小标题小标题小标题
+            li.image-item
+              a(href="#")
+                img(src="@|show-6.jpg|")
+                span 小标题小标题小标题小标题
+            li.image-item
+              a(href="#")
+                img(src="@|show-6.jpg|")
+                span 小标题小标题小标题小标题
         .title-bar(style="background-image: url('@|title-9.png|');")
+        plug(_name="module149" _src="https://template.owo.ink/aa0443e1927d4401.owo")
+      .ware-bottom
+        plug(_name="waves" _src="./src/page/waves.owo")
+        plug(_name="module2" _src="https://template.owo.ink/0d0151b82309f7a7.owo")
 </template>
 
 <script>
@@ -207,6 +218,11 @@
         e.preventDefault()
         mySwiper.swipeNext()
       })
+      // 切换
+      new switchIt(document.querySelectorAll('.box-2 li'), 'img', document.querySelector('.box-2 .fl img'))
+      new switchIt(document.querySelectorAll('.box-3 li'))
+      new switchIt(document.querySelectorAll('.box-4 li'), 'img', document.querySelector('.box-4 .show-img'))
+      new switchIt(document.querySelectorAll('.box-5 li'), 'img', document.querySelector('.box-5 .fl img'))
     }
   }
 </script>
@@ -416,6 +432,7 @@
   position: relative;
   img {
     display:  block;
+    width: 100%;
   }
   .w1200 {
     position: absolute;
@@ -586,6 +603,8 @@
   }
 }
 .card-box {
+  height: 645px;
+  overflow: hidden;
   .text-box {
     width: 580px;
     text-align: left;
@@ -600,7 +619,7 @@
     padding-bottom: 20px;
     line-height: 36px;
     border-bottom: 1px solid #ccc;
-    margin-bottom: 34px;
+    margin-bottom: 36px;
   }
   h2 {
     font-size: 24px;
@@ -611,6 +630,7 @@
   }
   .image-item {
     position: relative;
+    margin-bottom: 5px;
     img {
       width: 580px;
       height: 320px;
@@ -628,5 +648,25 @@
       font-size: 18px;
     }
   }
+}
+.show-image {
+  display: block;
+  width: 100%;
+}
+li a {
+  display: block;
+}
+.ware-bottom {
+  position: relative;
+}
+#copyright {
+  position: absolute;
+  background-color: rgba(205, 163, 90, 1);
+  padding: 40px 0;
+  bottom: 0;
+  color: white;
+  font-size: 14px;
+  height: 140px;
+  line-height: 30px;
 }
 </style>

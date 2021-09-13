@@ -72,6 +72,10 @@
 		{
 			"name": "jquery1.11.0",
 			"src": "https://cunchu.site/owo/script/jquery-1.11.1.min.js"
+		},
+		{
+			"name": "swiper3D",
+			"src": "https://cunchu.site/owo/script/swiper3D.js"
 		}
 	],
 	"styleList": [
